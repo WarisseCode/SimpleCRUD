@@ -1,0 +1,14 @@
+{
+    "name": "simplecrud/framework",
+    "description": "Un micro-framework PHP pour les opérations CRUD",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    }
+}
